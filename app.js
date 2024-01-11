@@ -36,7 +36,7 @@ app.post('/ShortURL', async (req, res) => {
 })
 
 app.listen(PORT, () => {
-    console.log("Node Running on port " + PORT);
+    console.log("Server Running on port " + PORT);
 })
 
 module.exports = app;
